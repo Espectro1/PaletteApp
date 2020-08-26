@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_nav"
+    app:startDestination="@id/fragment_main">
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.example.practica1.fragments.fragment_main"
+        android:label="fragment_main" />
+    <fragment
+        android:id="@+id/fragment_colors"
+        android:name="com.example.practica1.fragments.fragment_colors"
+        android:label="fragment_colors"
+        tools:layout="@layout/fragment_colors" />
+</navigation>

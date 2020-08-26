@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PalleteApp</string>
+
+    <string name="sync_title">Theme Color</string>
+    <string name="sync_ThemeColor">Allow switch theme color using the palette that you choose</string>
+
+</resources>
